@@ -31,10 +31,6 @@ restService.post("/echo", function(req, res) {
   // Get a reference to the database service
   var database = firebase.database();
 
-    return firebase.database().ref('/names/' + req.body.queryResult.parameters.name).once('value').then(function(snapshot) {
- username = (snapshot.val() && snapshot.val().username) || 'Anonymous';
-  // ...
-});
     
   var speech =
     req.body.queryResult &&
