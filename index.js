@@ -16,20 +16,20 @@ restService.use(bodyParser.json());
 restService.post("/echo", function(req, res) {
     
     
-    // Set the configuration for your app
-  // TODO: Replace with your project's config object
-  var config = {
-    apiKey: "AIzaSyB8pa3YFikGiuLeL7C1IzTx232PYE3aANY",
-    authDomain: "name-meaning-c54c8.firebaseapp.com",
-    databaseURL: "https://name-meaning-c54c8.firebaseio.com/",
-    storageBucket: "gs://name-meaning-c54c8.appspot.com"
-
-  };
-  firebase.initializeApp(config);
-    var username;
-
-  // Get a reference to the database service
-  var database = firebase.database();
+//    // Set the configuration for your app
+//  // TODO: Replace with your project's config object
+//  var config = {
+//    apiKey: "AIzaSyB8pa3YFikGiuLeL7C1IzTx232PYE3aANY",
+//    authDomain: "name-meaning-c54c8.firebaseapp.com",
+//    databaseURL: "https://name-meaning-c54c8.firebaseio.com/",
+//    storageBucket: "gs://name-meaning-c54c8.appspot.com"
+//
+//  };
+//  firebase.initializeApp(config);
+//    var username;
+//
+//  // Get a reference to the database service
+//  var database = firebase.database();
 
     
   var speech =
