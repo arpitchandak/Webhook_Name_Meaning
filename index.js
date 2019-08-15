@@ -18,7 +18,7 @@ restService.post("/echo", function(req, res) {
     req.body.queryResult &&
     req.body.queryResult.parameters &&
     req.body.queryResult.parameters.name
-      ? req.body.queryResult.parameters.name
+      ? "Hlo" + req.body.queryResult.parameters.name
       : "Seems like some problem. Speak again.";
   
   var speechResponse = {
